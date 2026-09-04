@@ -11,13 +11,13 @@ import { notFoundMiddleware } from './shared/middleware/not-found.middleware.js'
 
 export const app = express();
 app.disable('x-powered-by');
-app.use(pinoHttp({ 
-    logger, 
+app.use(pinoHttp({
+    logger,
     genReqId(req, res){
         const existingRequestId = req.headers['x-request-id'];
         const requestId = typeof existingRequestId === 'string' ? existingRequestId : randomUUID();
 
-        res.setHeader('x-request-id', requestId); 
+        res.setHeader('x-request-id', requestId);
         return requestId;
     }
 }));
