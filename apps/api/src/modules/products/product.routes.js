@@ -18,6 +18,8 @@ import {
 
 import { asyncHandler } from '../../shared/http/async-handler.js'
 import { validate } from '../../shared/middleware/validate.middleware.js'
+import { authorize } from '../../shared/middleware/authorize.middleware.js'
+import { authenticate } from '../../shared/middleware/authenticate.middleware.js'
 
 const router = Router()
 
@@ -35,18 +37,21 @@ router.get(
 
 router.post(
     '/',
+    authorize(['products: create']),
     validate(createProductSchema),
     asyncHandler(createProduct)
 )
 
 router.patch(
     '/:id',
+    authorize(['products: update']),
     validate(updateProductSchema),
     asyncHandler(updateProduct)
 )
 
 router.delete(
     '/:id',
+    authorize(['products: delete']),
     validate(deleteProductSchema),
     asyncHandler(deleteProduct)
 )
