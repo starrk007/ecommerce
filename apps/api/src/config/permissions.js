@@ -1,4 +1,4 @@
-export const permissionsByRole = {
+export const permissionsByRole =
     Object.freeze({
         CUSTOMER: new Set([
             'products: read',
@@ -17,5 +17,4 @@ export const permissionsByRole = {
         SUPER_ADMIN: new Set([
             '*'
         ]),
-    }),
-}
+    })

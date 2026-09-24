@@ -8,6 +8,7 @@
     "apps/web"
   ],
   "scripts": {
+    "dev": "concurrently --kill-others --names API,WEB \"npm run dev:api\" \"npm run dev:web\"",
     "dev:web": "npm run dev --workspace=@ecommerce/web",
     "dev:api": "npm run dev --workspace=@ecommerce/api",
     "build:web": "npm run build --workspace=@ecommerce/web",
@@ -16,6 +17,9 @@
     "typecheck:web": "npm run typecheck --workspace=@ecommerce/web",
     "test:web": "npm run test --workspace=@ecommerce/web",
     "test:e2e:web": "npm run test:e2e --workspace=@ecommerce/web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   },
   "engines": {
     "node": ">=24.0.0"
