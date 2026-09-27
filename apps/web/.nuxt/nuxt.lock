@@ -1,9 +1,0 @@
-{
-  "pid": 17168,
-  "startedAt": 1790481903171,
-  "command": "dev",
-  "cwd": "D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web",
-  "port": 3000,
-  "hostname": "::1",
-  "url": "http://[::1]:3000"
-}
