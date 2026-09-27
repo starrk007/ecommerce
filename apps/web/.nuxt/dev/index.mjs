@@ -1,51 +1,50 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getResponseStatusText } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/nitro-server/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { escapeHtml } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@vue/shared/dist/shared.cjs.js';
-import viteNodeEntry_mjs from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
-import { viteNodeFetch } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, parseQuery, parsePath, encodePath, joinRelativeURL } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ufo/dist/index.mjs';
-import destr, { destr as destr$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nitropack/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unstorage/drivers/fs.mjs';
-import { digest, hash as hash$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nitropack/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getResponseStatusText } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/nitro-server/node_modules/h3/dist/index.mjs';
+import { escapeHtml } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@vue/shared/dist/shared.cjs.js';
+import viteNodeEntry_mjs from 'file:///D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
+import { viteNodeFetch } from 'file:///D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, parseQuery, parsePath, encodePath, joinRelativeURL } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ufo/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/server.mjs';
+import { isVNode, isRef, toValue } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue/index.mjs';
+import { DeprecationsPlugin } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/legacy.mjs';
+import { PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/plugins.mjs';
+import { klona } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/defu/dist/defu.mjs';
+import destr, { destr as destr$1 } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/destr/dist/index.mjs';
+import { snakeCase } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/scule/dist/index.mjs';
+import { defineDiagnostics, createConsoleReporter } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nostics/dist/index.mjs';
+import { ansiFormatter } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nostics/dist/formatters/ansi.mjs';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { renderToString } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue/server-renderer/index.mjs';
+import { stringify, uneval } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/devalue/index.js';
+import { createHooks } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nitropack/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unstorage/drivers/fs.mjs';
+import { digest, hash as hash$1 } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/ohash/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/source-map/source-map.js';
-import { defineDiagnostics, createConsoleReporter } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nostics/dist/index.mjs';
-import { ansiFormatter } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/nostics/dist/formatters/ansi.mjs';
+import consola, { consola as consola$1 } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/youch-core/build/index.js';
+import { Youch } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { stringify, uneval } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/devalue/index.js';
-import { getContext as getContext$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unctx/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/errx/dist/index.mjs';
-import { isVNode, isRef, toValue } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue/index.mjs';
-import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
+import { getContext } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unctx/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/errx/dist/index.mjs';
+import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname as dirname$1, resolve as resolve$1 } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@iconify/utils/lib/index.js';
-import { collections } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/apps/web/.nuxt/nuxt-icon-server-bundle.mjs';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { renderToString } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/vue/server-renderer/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/server.mjs';
-import { walkResolver } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/utils.mjs';
-import { DeprecationsPlugin } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/legacy.mjs';
-import { PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///home/starrk/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/plugins.mjs';
+import { dirname as dirname$1, resolve as resolve$1 } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/@iconify/utils/lib/index.js';
+import { collections } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/apps/web/.nuxt/nuxt-icon-server-bundle.mjs';
+import { walkResolver } from 'file://D:/Users/Alexis/Documents/School/9no/Lenguajes%20modernos%20de%20Programacion/nodejs-monorepo/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -57,11 +56,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -703,11 +702,6 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
     }
     return void 0;
   }
-});
-
-getContext("nitro-app", {
-  asyncContext: false,
-  AsyncLocalStorage: void 0
 });
 
 function isPathInScope(pathname, base) {
@@ -2035,7 +2029,7 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _qehBrMZuU3On0QFF0EHkIbMgomJmyxvEIJ4tjjyp3s = (function(nitro) {
+const _fzWIhFjPstxVaigB3e3jk7qG3fqFPYEQJLqsyQclfrY = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
@@ -2104,7 +2098,7 @@ const appSpaLoaderAttrs = {"id":"__nuxt-loader"};
 
 const appId = "nuxt-app";
 
-const rootDir = "/home/starrk/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web";
+const rootDir = "D:/Users/Alexis/Documents/School/9no/Lenguajes modernos de Programacion/nodejs-monorepo/apps/web";
 
 //#region src/runtime/plugins/dev-server-logs.ts
 const devReducers = {
@@ -2115,7 +2109,7 @@ const devReducers = {
 	URL: (data) => data instanceof URL ? data.toString() : void 0,
 	Symbol: (data) => typeof data === "symbol" ? data.description ?? "" : void 0
 };
-const asyncContext = getContext$1("nuxt-dev", {
+const asyncContext = getContext("nuxt-dev", {
 	asyncContext: true,
 	AsyncLocalStorage
 });
@@ -2181,7 +2175,7 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _qehBrMZuU3On0QFF0EHkIbMgomJmyxvEIJ4tjjyp3s,
+  _fzWIhFjPstxVaigB3e3jk7qG3fqFPYEQJLqsyQclfrY,
 dev_server_logs_default,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
@@ -2211,7 +2205,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _fX_0yI = eventHandler((event) => {
+const _dNjz0X = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -2286,7 +2280,7 @@ function getInstallCommand(pkg) {
   if (ua.startsWith("bun")) return `bun add -D ${pkg}`;
   return `npm i -D ${pkg}`;
 }
-const _NuzS1a = defineCachedEventHandler(async (event) => {
+const _ixv3S5 = defineCachedEventHandler(async (event) => {
   const collectionName = event.context.params?.collection?.replace(/\.json$/, "");
   const collection = collectionName && Object.hasOwn(collections, collectionName) ? await collections[collectionName]?.() : null;
   const apiEndPoint = options.iconifyApiEndpoint;
@@ -2850,14 +2844,14 @@ async function getIslandContext(event) {
 	};
 }
 
-const _lazy_b7o8a9 = () => Promise.resolve().then(function () { return renderer; });
+const _lazy_yPHW_E = () => Promise.resolve().then(function () { return renderer; });
 
 const handlers = [
-  { route: '', handler: _fX_0yI, lazy: false, middleware: true, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_b7o8a9, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _NuzS1a, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _dNjz0X, lazy: false, middleware: true, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_yPHW_E, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_nuxt_icon/:collection', handler: _ixv3S5, lazy: false, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: handler$1, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_b7o8a9, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_yPHW_E, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

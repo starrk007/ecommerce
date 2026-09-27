@@ -3,8 +3,10 @@ import cors from 'cors';
 import express from 'express';
 import helmet from 'helmet';
 import pinoHttp from 'pino-http';
+import swaggerUi from 'swagger-ui-express';
 import { env } from './config/env.js';
 import { logger } from './config/logger.js';
+import { openapi } from './docs/openapi.js';
 import router from './routes/index.js';
 import { errorMiddleware } from './shared/middleware/error.middleware.js';
 import { notFoundMiddleware } from './shared/middleware/not-found.middleware.js';
@@ -33,6 +35,7 @@ app.use(express.urlencoded({
     extended: false,
     limit: '1mb'
 }));
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapi));
 app.use(env.API_PREFIX, router);
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
